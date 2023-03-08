@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-top: auto;
+  flex-direction: column;
+}
+.container .features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,72 @@
+.auth {
+  margin: 3rem auto;
+  width: 95%;
+  max-width: 25rem;
+  border-radius: 6%;
+  background-color: lightgray;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+  color: black;
+
+  h1 {
+    text-align: center;
+  }
+
+  form {
+
+    .control {
+        margin-bottom: 0.5rem;
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        input {
+            background-color: white;
+            color: black;
+            border-radius: 4%;
+            border: 1px solid white;
+            width: 100%;
+            text-align: left;
+            padding: 0.25rem;
+        }
+      }
+
+      .actions {
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        button {
+            cursor: pointer;
+            color: black;
+            background-color: lightgray;
+            border: 1px solid black;
+            border-radius: 4%;
+            padding: 0.5rem 2.5rem;
+
+            &:hover {
+                background-color: lightgray;
+                border-color: black;
+            }
+        }
+
+        .toggle {
+            margin-top: 1rem;
+            background-color: transparent;
+            color: black;
+            border: none;
+            padding: 0.15rem 1.5rem;
+
+            &:hover {
+                background-color: transparent;
+                color: white;
+            }
+        }
+    }
+  }
+}

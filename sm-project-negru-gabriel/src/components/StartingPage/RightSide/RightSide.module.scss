@@ -1,0 +1,115 @@
+.RightSideContent {
+  position: relative;
+  top: auto;
+  border-radius: 0%;
+  background-color: lightgray;
+  width: auto;
+  left: 70%;
+  padding: 10px;
+  overflow: auto;
+  box-shadow: 0%;
+  justify-content: right;
+
+  .contactSection {
+    .Advertisement {
+      font-size: 20px;
+      padding-left: 30px;
+      color: black;
+      padding-top: 10px;
+      text-align: center;
+      &:hover {
+        background-color: lightgrey;
+        cursor: pointer;
+      }
+    }
+
+    .advertisementStyle {
+      height: 120px;
+      width: 170px;
+      padding-left: 30px;
+      box-shadow: black;
+      margin-bottom: 30px;
+      margin-left: 30px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .advertisementPhoto {
+      color: black;
+      margin-left: 20px;
+      font-style: italic;
+      text-decoration: underline;
+      position: absolute;
+      margin-top: 45px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.contactPictures {
+  display: flex;
+  .friendRequest {
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: black;
+    &:hover {
+      cursor: pointer;
+    }
+    .seeSection {
+      margin-left: 90px;
+      color: black;
+      cursor: pointer;
+      font-style: italic;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .friendR {
+      margin-top: 15px;
+      height: 60px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+  .buttonStyle {
+    margin-left: 15px;
+    bottom: 25px;
+    background-color: black;
+    &:hover {
+      background-color: black;
+      cursor: pointer;
+    }
+  }
+}
+
+.birthday {
+  margin-top: 20px;
+  padding-left: 32px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: black;
+  &:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+  }
+}
+.birthdayIcon {
+  color: black;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.textDecoration {
+  -webkit-text-decoration: solid;
+  text-decoration: solid;
+  color: black;
+  font-style: italic;
+  font-size: 17px;
+  margin-top: 25px;
+  &:hover {
+    cursor: pointer;
+  }
+}

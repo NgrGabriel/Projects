@@ -1,0 +1,25 @@
+@import '.assets/scss/mixins';
+
+.uiFeatures {
+    @include flexbox();
+};
+
+.container {
+    @include flexbox();
+    margin-top: auto;   
+    flex-direction: column;
+    .features {
+        @include flexbox();
+    }
+
+    .form{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        &.invalid {
+            border: 1px solid red;
+        }
+    }
+}

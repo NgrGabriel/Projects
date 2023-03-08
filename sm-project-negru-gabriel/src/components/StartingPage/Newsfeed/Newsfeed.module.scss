@@ -1,0 +1,85 @@
+.mainPost {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    border: 1px solid black;
+    margin: 15px;
+    padding-top: 1rem;
+    position: static;
+    margin-left: 10%;
+    border: none;
+    .userInfo {
+      display: flex;
+      justify-content: space-between;
+      .profilePictureImg {
+        height: 3rem;
+        width: auto;
+        border-radius: 70%;
+        margin-left: 6%;
+        &:hover {
+          cursor: pointer;
+        }
+        
+      }
+      
+  
+      .contextMenu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        border-radius: 50%;
+      }
+    }
+  
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      .imageWrapper {
+        position: relative;
+        .mainPostImage {
+          max-width: 100%;
+          position: relative;
+        }
+  
+        .infoIcon {
+          position: absolute;
+          right: 3rem;
+          bottom: -0.7rem;
+          color: white;
+        }
+      }
+    }
+  
+    .reacts {
+      display: flex;
+      justify-content: space-between;
+  
+      .likesNumber,
+      .commentsNumber {
+        display: flex;
+      }
+      .commentContainer {
+        width: 45rem;
+      }
+    }
+  
+    .reactsActions {
+      display: flex;
+      justify-content: space-between;
+  
+      .reaction {
+        display: flex;
+        cursor: pointer;
+        &.blue {
+          color: blue;
+        }
+      }
+    }
+  }
